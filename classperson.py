@@ -6,11 +6,8 @@ class Person:
 
     def displayinfo(self):
         return f"Hello! Your name is {self.name}. You are {self.age} years old. Your gender is {self.gender}"
-    
-    def __str__(self):
-        return self.displayinfo()
 
 # Creating an instance of the Person class
 person1 = Person("John",19 ,"male")
 # Printing the object 
-print(person1)      
+print(person1.displayinfo())      
